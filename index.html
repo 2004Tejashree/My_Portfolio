@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="header">
+    <div class="container">
+
+        <div class="container1">
+            <img src="images/logo.jpeg" alt="" class="logo">
+
+            <div class="nav">
+                <div class="ul">
+                <li><a href="#header"></a>Home</li>
+                <li><a href="#about"></a>About</li>
+                <li><a href="#services"></a>Work</li>
+                <li><a href="#contact"></a>Contact</li>
+                <!-- <li><a href="#"></a>Services</li> -->
+                <img src="images/close.svg" alt="" onclick="closemenu()" class="responsive">
+            
+            </div>
+                <img src="images/menu.svg" alt="" onclick="openmenu()" class="responsive">
+            </div>
+            </div>
+
+    <div class="header-text">
+        <p>Frontent Developer</p>
+        <h1>Hello, I am <span> Tejashreeraje</span> Panaskar</h1>
+    </div>
+</div>
+</div>
+
+<!-- ABOUT------------------------------ -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+            <img src="images/profile-pic (7).png" alt="">
+        </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Presently immersed in the dynamic field of computer engineering, with a fervent passion for software development.
+                     Driven by a thirst for innovation and technological mastery, dedicated to exploring the depths of programming and harnessing cutting-edge technologies.
+                </p>
+          <div class="tab-titles">
+            <h2 class="tab-links active-link "  onclick="opentab('skills')">SKILLS</h2>
+            <h2 class="tab-links" onclick="opentab('education')">EDUCATION</h2>
+            <h2 class="tab-links" onclick="opentab('experience')">EXPERIENCE</h2>
+
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Technical Skills</span><br>Canva, Figma, MySQL, OOP,DSA, Express Js, Nodejs</li>
+                <li><span>Frontent</span><br>HTML, CSS, Javascript, React</li>
+                <li><span>Languages</span><br>C/C++, Python</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents " id="education">
+            <ul>
+                <li><span>B.Tech in Computer Engineering  </span><br>Pimpri Chinchwad College of Engineering</li>
+                <li><span>Higher Secondary Education</span><br>Indrayani Mahavidyalay, Pune</li>
+                <li><span>Secondary Education </span> <br>Shree Rameshkumar Sawhney English School,Pune</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>Software Intern</span><br>Edu Intern</li>
+                <li><span>Hacckerank </span><br>4 star</li>
+                <li><span>Stone,Paper Scissor Game</span><br>Builded the game for playing using python</li>
+
+            </ul>
+          </div>
+                    </div>
+
+        </div>
+    </div>
+ </div>
+ <!-- Services or work -->
+  <div id="services">
+    <div class="continer">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+            <div>
+                <img src="images/code.svg" alt="">
+                <h1>Website Design</h1>
+                <p>I developed a portfolio website with a clean, modern design to create a user-friendly experience. The site features a responsive layout, ensuring it looks great on any device. An interactive projects gallery allows visitors to explore my work with detailed descriptions and links. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+<img src="images/game.svg" alt="">
+                <h1>Stone,Water,Scissor Game</h1>
+                <p>I developed a Stone-Paper-Scissors game using Python, focusing on simplicity and user engagement. The game features a clean command-line interface, making it easy to play and understand. Players can choose between stone, paper, or scissors, with the computer generating a random choice.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- <div>
+                <h2>Jarvis</h2>
+                <p>I developed an OpenAI-based application using Python, leveraging powerful machine learning models to create an intelligent and interactive user experience.</p>
+                <a href="#">Learn More</a>
+            </div> -->
+        </div>
+    </div>
+    <div class="see">
+        <a href="#"class="btn btn2">See More </a>
+    </div>
+  </div>
+
+  <!-- ----------------------my work -->
+   <!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">
+            My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/background.jpg" alt="">
+                <div class="layer">
+                    <h3>Portfolio website</h3>
+                    <p>I developed a portfolio website with a clean, modern design to create a user-friendly experience. The site features a responsive layout, ensuring it looks great on any device. An interactive projects gallery allows visitors to explore my work with detailed descriptions and links. </p>
+                    <a href="#" ><img src="images/externallink.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/background.jpg" alt="">
+                <div class="layer">
+                    <h3>Portfolio website</h3>
+                    <p>I developed a portfolio website with a clean, modern design to create a user-friendly experience. The site features a responsive layout, ensuring it looks great on any device. An interactive projects gallery allows visitors to explore my work with detailed descriptions and links. </p>
+                    <a href="#" ><img src="images/externallink.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/logo.png" alt="">
+            </div>
+        </div> -->
+       
+    <!-- </div>
+   </div>  -->
+   <!-- CONTACT============== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="images/send.svg" alt="">contact@exmaple.com</p>
+                    <p> <img src="images/phone.svg" alt="">0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><img src="images/facebook.svg" alt=""></a>
+                        <a href="https://linkedin.com/"><img src="images/linkedin.svg" alt=""></a>
+                        <a href="https://instagram.com/"><img src="images/instagram.svg" alt=""></a>
+                    </div>
+                    <a href="Resume (2).pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea type="" name="Message" row="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>  
+                </form>    
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Tejashree .Made with <img src="images/heart.svg" alt=""> easy tutorials</p>
+        </div>
+    </div>
+ <!-- SCRIPT -->
+  <script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+
+    }
+
+  </script>
+  <script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
